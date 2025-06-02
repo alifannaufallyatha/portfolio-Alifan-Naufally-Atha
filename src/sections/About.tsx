@@ -65,8 +65,11 @@ const About = () => {
                 alt="Profile"
                 className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto mb-6 object-cover"
               />
+              <h3 className="text-1xl font-bold text-center text-gray-800 dark:text-white mb-2">
+                UNIVERSITAS SYIAH KUALA  (INFORMATIKA)
+              </h3>
               <h3 className="text-2xl font-bold text-center text-gray-800 dark:text-white mb-2">
-                Alifan Naufally Atha
+                Alifan Naufally Atha, S.Kom
               </h3>
               <p className="text-blue-500 dark:text-blue-400 text-center mb-4">
                 Website Development & Web Design

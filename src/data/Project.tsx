@@ -11,7 +11,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Peminjaman Ruangan DPMPTSP ACEH",
+    title: "Back-End Peminjaman Ruangan DPMPTSP ACEH",
     description: "Make a sistem for room loans at the DPMPTSP ACEH office, using the Laravel framework with a focus on developing system logic.",
     category: "Web Development",
     image: "/public/assets/image/dpmptsp.png",
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     title: "APURA API Development",
     description: "RESTful API service with authentication, database integration, and documentation.",
     category: "Backend",
-    image: "/public/assets/image/doc-api-apura.png",
+    image: "/public/assets/image/apura.png",
     technologies: ["Node.js","Typescript", "Express", "PostgreSQL", "JWT", "Postman", "Cloudinary", "Nodemailer"],
     link: "https://documenter.getpostman.com/view/31404023/2sB2qgddg4"
   },
@@ -47,11 +47,21 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Portfolio Website",
-    description: "Modern and responsive portfolio website with smooth animations and intuitive user interface.",
+    title: "Web Design DPMPTSP ACEH",
+    description: "A modern and responsive web design for the DPMPTSP ACEH office, showcasing a clean and professional layout with a focus on user experience.",
     category: "Web Design",
-    image: "/projects/portfolio.jpg",
-    technologies: ["Figma", "CSS3", "SASS", "JavaScript", "Framer Motion"],
-    link: "https://portfolio.com"
+    image: "/public/assets/image/webdesign-dpmptsp.png",
+    technologies: ["Figma"],
+    link: "https://www.figma.com/proto/F8fKR12R0z5a7xv3MnAlBv/EBOOK-DPMPTSP?page-id=0%3A1&node-id=261-8922&viewport=2523%2C-3047%2C0.09&t=KHmmY7EJp4i6FI9N-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=8%3A142&show-proto-sidebar=1"
+  },
+  {
+    id: 6,
+    title: "Portfolio Website",
+    description: "A modern and responsive portfolio website showcasing projects and skills with a clean design and then dark/light mode.",
+    category: "Web Design",
+    image: "/public/assets/image/balohanweb.png",
+    technologies: ["React + Vite", "TypeScript", "PostCSS","Tailwind", "Framer Motion", "Node.js"],
+    link: "https://www.figma.com/proto/R4Kh8ZKVUXFS5opOKNCiKu/Web-Pelabohan?page-id=0%3A1&node-id=141-188&viewport=-363%2C-515%2C0.2&t=xVh90UUVlTlenI7t-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=23%3A2m"
   }
+
 ];
