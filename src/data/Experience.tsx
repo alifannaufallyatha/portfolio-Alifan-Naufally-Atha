@@ -10,26 +10,30 @@ export interface ExperienceItem {
 export const experiences: ExperienceItem[] = [
   {
     id: 1,
-    date: "2023 - Present",
-    position: "Software Engineer",
-    company: "Tech Company",
-    location: "Jakarta, Indonesia",
+    date: "08/2024 - 10/2024",
+    position: "Junior Backend Developer",
+    company: "DPMPTSP ACEH",
+    location: "Aceh, Indonesia",
     description: [
-      "Developed and maintained web applications using React and TypeScript",
-      "Collaborated with cross-functional teams to deliver high-quality software",
-      "Implemented responsive design and improved application performance"
+      "Develop a room loan system at the DPMPTSP office ACEH.",
+      "Design ERD for Database.",
+      "Using MYSQL for database management system (DBMS).",
+      "Used the Laravel framework",
+      "the MVC concept.",
+      "focus on developing system logic Models, Controller and Middleware."
     ]
   },
   {
     id: 2,
-    date: "2021 - 2023",
-    position: "Junior Developer",
-    company: "Startup Corp",
-    location: "Bandung, Indonesia",
+    date: "11/2023 - 09/2023",
+    position: "Junior Front-End Engineer",
+    company: "PT. KARYA GENERASI NUSANTARA",
+    location: "Jakarta, Indonesia",
     description: [
-      "Built and maintained frontend features using modern JavaScript frameworks",
-      "Participated in code reviews and technical discussions",
-      "Worked on bug fixes and performance improvements"
+      "Understand the existing folder structure.",
+      "Fetching data from the API.",
+      "Develop a responsive website such as mobile use react.",
+      "Using react strap for styling."
     ]
   }
 ];
