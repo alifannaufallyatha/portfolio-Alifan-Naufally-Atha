@@ -1,13 +1,6 @@
-export interface ExperienceItem {
-  id: number;
-  date: string;
-  position: string;
-  company: string;
-  location?: string;
-  description: string[];
-}
+import { IExperienceItem } from "../interface/IExperience";
 
-export const experiences: ExperienceItem[] = [
+export const experiences: IExperienceItem[] = [
   {
     id: 1,
     date: "08/2024 - 10/2024",

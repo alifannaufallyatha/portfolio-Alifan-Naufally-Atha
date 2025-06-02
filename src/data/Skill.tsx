@@ -1,10 +1,6 @@
-export interface Skill {
-  id: number;
-  name: string;
-  icon: string;
-}
+import { ISkill } from "../interface/ISkill";
 
-export const skills: Skill[] = [
+export const skills: ISkill[] = [
   {
     id: 1,
     name: "React",

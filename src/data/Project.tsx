@@ -1,16 +1,6 @@
+import  { IProject } from "../interface/IProject";
 
-
-export interface Project {
-  id: number;
-  title: string;
-  description: string;
-  category?: string;
-  image: string;
-  technologies: string[];
-  link?: string;
-}
-
-export const projects: Project[] = [
+export const projects: IProject[] = [
   {
     id: 1,
     title: "Back-End Peminjaman Ruangan DPMPTSP ACEH",
@@ -58,7 +48,7 @@ export const projects: Project[] = [
   },
   {
     id: 6,
-    title: "Portfolio Website",
+    title: "Balohan Port WebDesign",
     description: "A modern and responsive portfolio website showcasing projects and skills with a clean design and then dark/light mode.",
     category: "Web Design",
     image: "/assets/image/balohanweb.png",
